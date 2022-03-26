@@ -15,7 +15,7 @@ public class Program5 {
             System.out.println("Ending thread 1");
         });
 
-        Thread thread1 = new Thread(()->{
+        Thread thread1 = new Thread(() -> {
             System.out.println("Starting thread 2");
             try {
                 Thread.sleep(2000);
