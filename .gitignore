@@ -1,0 +1,16 @@
+bin/
+.settings/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+*/target/**
+src/test/resources/config-uat.properties
+src/main/resources/templates/tabular-logs-output.html
+classes/
+src/META-INF/
+target/
+/target
